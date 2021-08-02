@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Async from "./Async";
 
 function Greeting() {
   const [changedText, setChangedText] = useState(false);
